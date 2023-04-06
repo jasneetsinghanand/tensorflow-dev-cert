@@ -18,4 +18,11 @@ Following article - [https://www.mrdbourke.com/get-your-computer-ready-for-machi
  - NLP
 - What is and why use Tensorflow?
 - What is a Tensor?
-- 
+- Creating Tensors with Tensorflow
+- tf.Variable() Vs tf.Constant() + tf1[0].assign()
+- Random tensors 
+	- tf.random.uniform(shape=(3,2)) Vs tf.random.normal(shape=(3,2))
+	- tf.random.Generator.from_seed(42) // set seed for reproducibility 
+ - Shuffling order of tensors
+	-  tf.random.shuffle(unshuffled).set_seed()
+	- Global (tf.random.set_seed()) Vs Operation level seeds
